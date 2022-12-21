@@ -11,7 +11,6 @@ public class Assignment3 {
         System.out.println("smallest: "+que3(arr));
         System.out.println("Largest: "+max(arr));
     }
-
     public static int[] Arr0and1(int[] arr) {
         int count = 0;
         for (int j : arr) {
