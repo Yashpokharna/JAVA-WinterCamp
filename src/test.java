@@ -9,3 +9,4 @@ public class test {
         System.out.println(10/0);
     }
 }
+// super method - to invoke immediate parent class constructor.
