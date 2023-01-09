@@ -11,7 +11,6 @@ public class Library {
         int choice;
         int searchChoice;
         do {
-
             ob.dispMenu();
             choice = input.nextInt();
             switch (choice) {
@@ -23,7 +22,6 @@ public class Library {
                     ob.upgradeBookQty();
                     break;
                 case 3:
-
                     System.out.println(
                             " press 1 to Search with Book Serial No.");
                     System.out.println(
@@ -40,20 +38,16 @@ public class Library {
                 case 4:
                     ob.showAllBooks();
                     break;
-
                     case 5:
                     student s = new student();
                     obStudent.addStudent(s);
                     break;
-
                     case 6:
                     obStudent.showAllStudents();
                     break;
-
                 case 7:
                     obStudent.checkOutBook(ob);
                     break;
-
                 case 8:
                     obStudent.checkInBook(ob);
                     break;
